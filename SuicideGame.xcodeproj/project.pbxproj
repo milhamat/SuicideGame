@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA3325792439E874007DAB73 /* blast.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA3325782439E873007DAB73 /* blast.m4a */; };
+		DA33257C243B3ECB007DAB73 /* Explosion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA33257B243B3ECB007DAB73 /* Explosion.m4a */; };
+		DA33257E243B7063007DAB73 /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA33257D243B7062007DAB73 /* Baloo2-Bold.ttf */; };
+		DA332580243CD786007DAB73 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33257F243CD786007DAB73 /* GameOverScene.swift */; };
+		DA3F72F82438D4F40093D306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F72F72438D4F40093D306 /* AppDelegate.swift */; };
+		DA3F72FA2438D4F40093D306 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA3F72F92438D4F40093D306 /* GameScene.sks */; };
+		DA3F72FC2438D4F40093D306 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA3F72FB2438D4F40093D306 /* Actions.sks */; };
+		DA3F72FE2438D4F40093D306 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F72FD2438D4F40093D306 /* GameScene.swift */; };
+		DA3F73002438D4F40093D306 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F72FF2438D4F40093D306 /* GameViewController.swift */; };
+		DA3F73032438D4F40093D306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F73012438D4F40093D306 /* Main.storyboard */; };
+		DA3F73052438D4F70093D306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3F73042438D4F70093D306 /* Assets.xcassets */; };
+		DA3F73082438D4F70093D306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F73062438D4F70093D306 /* LaunchScreen.storyboard */; };
+		DA7E0CD5244C9C550028AC2B /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E0CD4244C9C550028AC2B /* MainMenuScene.swift */; };
+		DA7E0CD7244DD6FC0028AC2B /* BackingSongSG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA7E0CD6244DD6FC0028AC2B /* BackingSongSG.mp3 */; };
+		DA7E0CDA244DD95E0028AC2B /* Lasser1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA7E0CD8244DD95E0028AC2B /* Lasser1.m4a */; };
+		DA7E0CDB244DD95E0028AC2B /* Boom1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA7E0CD9244DD95E0028AC2B /* Boom1.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA3325782439E873007DAB73 /* blast.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = blast.m4a; sourceTree = "<group>"; };
+		DA33257B243B3ECB007DAB73 /* Explosion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explosion.m4a; sourceTree = "<group>"; };
+		DA33257D243B7062007DAB73 /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Bold.ttf"; sourceTree = "<group>"; };
+		DA33257F243CD786007DAB73 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		DA3F72F42438D4F40093D306 /* SuicideGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuicideGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3F72F72438D4F40093D306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA3F72F92438D4F40093D306 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DA3F72FB2438D4F40093D306 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DA3F72FD2438D4F40093D306 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DA3F72FF2438D4F40093D306 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DA3F73022438D4F40093D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA3F73042438D4F70093D306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA3F73072438D4F70093D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA3F73092438D4F70093D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7E0CD4244C9C550028AC2B /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		DA7E0CD6244DD6FC0028AC2B /* BackingSongSG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BackingSongSG.mp3; path = SuicideGame/SoundEffect/BackingSongSG.mp3; sourceTree = SOURCE_ROOT; };
+		DA7E0CD8244DD95E0028AC2B /* Lasser1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lasser1.m4a; sourceTree = SOURCE_ROOT; };
+		DA7E0CD9244DD95E0028AC2B /* Boom1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boom1.m4a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3F72F12438D4F40093D306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA33257A2439E88E007DAB73 /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				DA7E0CD9244DD95E0028AC2B /* Boom1.m4a */,
+				DA7E0CD8244DD95E0028AC2B /* Lasser1.m4a */,
+				DA7E0CD6244DD6FC0028AC2B /* BackingSongSG.mp3 */,
+				DA33257B243B3ECB007DAB73 /* Explosion.m4a */,
+				DA3325782439E873007DAB73 /* blast.m4a */,
+			);
+			path = SoundEffect;
+			sourceTree = "<group>";
+		};
+		DA3F72EB2438D4F40093D306 = {
+			isa = PBXGroup;
+			children = (
+				DA3F72F62438D4F40093D306 /* SuicideGame */,
+				DA3F72F52438D4F40093D306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3F72F52438D4F40093D306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F72F42438D4F40093D306 /* SuicideGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3F72F62438D4F40093D306 /* SuicideGame */ = {
+			isa = PBXGroup;
+			children = (
+				DA33257A2439E88E007DAB73 /* SoundEffect */,
+				DA3F72F72438D4F40093D306 /* AppDelegate.swift */,
+				DA3F72F92438D4F40093D306 /* GameScene.sks */,
+				DA3F72FB2438D4F40093D306 /* Actions.sks */,
+				DA7E0CD4244C9C550028AC2B /* MainMenuScene.swift */,
+				DA3F72FD2438D4F40093D306 /* GameScene.swift */,
+				DA33257F243CD786007DAB73 /* GameOverScene.swift */,
+				DA3F72FF2438D4F40093D306 /* GameViewController.swift */,
+				DA3F73012438D4F40093D306 /* Main.storyboard */,
+				DA3F73062438D4F70093D306 /* LaunchScreen.storyboard */,
+				DA3F73042438D4F70093D306 /* Assets.xcassets */,
+				DA3F73092438D4F70093D306 /* Info.plist */,
+				DA33257D243B7062007DAB73 /* Baloo2-Bold.ttf */,
+			);
+			path = SuicideGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3F72F32438D4F40093D306 /* SuicideGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3F730C2438D4F70093D306 /* Build configuration list for PBXNativeTarget "SuicideGame" */;
+			buildPhases = (
+				DA3F72F02438D4F40093D306 /* Sources */,
+				DA3F72F12438D4F40093D306 /* Frameworks */,
+				DA3F72F22438D4F40093D306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuicideGame;
+			productName = SuicideGame;
+			productReference = DA3F72F42438D4F40093D306 /* SuicideGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3F72EC2438D4F40093D306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Muhammad Ilham Ashiddiq Tresnawan";
+				TargetAttributes = {
+					DA3F72F32438D4F40093D306 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = DA3F72EF2438D4F40093D306 /* Build configuration list for PBXProject "SuicideGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3F72EB2438D4F40093D306;
+			productRefGroup = DA3F72F52438D4F40093D306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3F72F32438D4F40093D306 /* SuicideGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3F72F22438D4F40093D306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7E0CDB244DD95E0028AC2B /* Boom1.m4a in Resources */,
+				DA33257E243B7063007DAB73 /* Baloo2-Bold.ttf in Resources */,
+				DA7E0CD7244DD6FC0028AC2B /* BackingSongSG.mp3 in Resources */,
+				DA3F73032438D4F40093D306 /* Main.storyboard in Resources */,
+				DA3F72FA2438D4F40093D306 /* GameScene.sks in Resources */,
+				DA3F73052438D4F70093D306 /* Assets.xcassets in Resources */,
+				DA3F73082438D4F70093D306 /* LaunchScreen.storyboard in Resources */,
+				DA7E0CDA244DD95E0028AC2B /* Lasser1.m4a in Resources */,
+				DA3F72FC2438D4F40093D306 /* Actions.sks in Resources */,
+				DA3325792439E874007DAB73 /* blast.m4a in Resources */,
+				DA33257C243B3ECB007DAB73 /* Explosion.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3F72F02438D4F40093D306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7E0CD5244C9C550028AC2B /* MainMenuScene.swift in Sources */,
+				DA3F72FE2438D4F40093D306 /* GameScene.swift in Sources */,
+				DA3F73002438D4F40093D306 /* GameViewController.swift in Sources */,
+				DA332580243CD786007DAB73 /* GameOverScene.swift in Sources */,
+				DA3F72F82438D4F40093D306 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA3F73012438D4F40093D306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3F73022438D4F40093D306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA3F73062438D4F70093D306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3F73072438D4F70093D306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA3F730A2438D4F70093D306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA3F730B2438D4F70093D306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3F730D2438D4F70093D306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A4J3R44FB;
+				INFOPLIST_FILE = SuicideGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rexy.SuicideGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA3F730E2438D4F70093D306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A4J3R44FB;
+				INFOPLIST_FILE = SuicideGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rexy.SuicideGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3F72EF2438D4F40093D306 /* Build configuration list for PBXProject "SuicideGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3F730A2438D4F70093D306 /* Debug */,
+				DA3F730B2438D4F70093D306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3F730C2438D4F70093D306 /* Build configuration list for PBXNativeTarget "SuicideGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3F730D2438D4F70093D306 /* Debug */,
+				DA3F730E2438D4F70093D306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3F72EC2438D4F40093D306 /* Project object */;
+}
