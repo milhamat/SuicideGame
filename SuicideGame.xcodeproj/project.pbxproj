@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,19 +28,19 @@
 /* Begin PBXFileReference section */
 		DA3325782439E873007DAB73 /* blast.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = blast.m4a; sourceTree = "<group>"; };
 		DA33257B243B3ECB007DAB73 /* Explosion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explosion.m4a; sourceTree = "<group>"; };
-		DA33257D243B7062007DAB73 /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Bold.ttf"; sourceTree = "<group>"; };
-		DA33257F243CD786007DAB73 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		DA33257D243B7062007DAB73 /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Baloo2-Bold.ttf"; path = "../Baloo2-Bold.ttf"; sourceTree = "<group>"; };
+		DA33257F243CD786007DAB73 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
 		DA3F72F42438D4F40093D306 /* SuicideGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuicideGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3F72F72438D4F40093D306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3F72F92438D4F40093D306 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		DA3F72FB2438D4F40093D306 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		DA3F72FD2438D4F40093D306 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		DA3F72FF2438D4F40093D306 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DA3F72FD2438D4F40093D306 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../GameScene.swift; sourceTree = "<group>"; };
+		DA3F72FF2438D4F40093D306 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../GameViewController.swift; sourceTree = "<group>"; };
 		DA3F73022438D4F40093D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA3F73042438D4F70093D306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3F73072438D4F70093D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DA3F73092438D4F70093D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA7E0CD4244C9C550028AC2B /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		DA3F73092438D4F70093D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		DA7E0CD4244C9C550028AC2B /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainMenuScene.swift; path = ../MainMenuScene.swift; sourceTree = "<group>"; };
 		DA7E0CD6244DD6FC0028AC2B /* BackingSongSG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BackingSongSG.mp3; path = SuicideGame/SoundEffect/BackingSongSG.mp3; sourceTree = SOURCE_ROOT; };
 		DA7E0CD8244DD95E0028AC2B /* Lasser1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lasser1.m4a; sourceTree = SOURCE_ROOT; };
 		DA7E0CD9244DD95E0028AC2B /* Boom1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boom1.m4a; sourceTree = SOURCE_ROOT; };
@@ -57,6 +57,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA071628246DBAC30052405D /* MainCode */ = {
+			isa = PBXGroup;
+			children = (
+				DA7E0CD4244C9C550028AC2B /* MainMenuScene.swift */,
+				DA3F72FD2438D4F40093D306 /* GameScene.swift */,
+				DA33257F243CD786007DAB73 /* GameOverScene.swift */,
+				DA3F72FF2438D4F40093D306 /* GameViewController.swift */,
+			);
+			path = MainCode;
+			sourceTree = "<group>";
+		};
+		DA071629246DBAF00052405D /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F73042438D4F70093D306 /* Assets.xcassets */,
+				DA3F73092438D4F70093D306 /* Info.plist */,
+				DA33257D243B7062007DAB73 /* Baloo2-Bold.ttf */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
 		DA33257A2439E88E007DAB73 /* SoundEffect */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,19 +109,14 @@
 		DA3F72F62438D4F40093D306 /* SuicideGame */ = {
 			isa = PBXGroup;
 			children = (
-				DA33257A2439E88E007DAB73 /* SoundEffect */,
+				DA071629246DBAF00052405D /* Asset */,
 				DA3F72F72438D4F40093D306 /* AppDelegate.swift */,
+				DA071628246DBAC30052405D /* MainCode */,
+				DA33257A2439E88E007DAB73 /* SoundEffect */,
 				DA3F72F92438D4F40093D306 /* GameScene.sks */,
 				DA3F72FB2438D4F40093D306 /* Actions.sks */,
-				DA7E0CD4244C9C550028AC2B /* MainMenuScene.swift */,
-				DA3F72FD2438D4F40093D306 /* GameScene.swift */,
-				DA33257F243CD786007DAB73 /* GameOverScene.swift */,
-				DA3F72FF2438D4F40093D306 /* GameViewController.swift */,
 				DA3F73012438D4F40093D306 /* Main.storyboard */,
 				DA3F73062438D4F70093D306 /* LaunchScreen.storyboard */,
-				DA3F73042438D4F70093D306 /* Assets.xcassets */,
-				DA3F73092438D4F70093D306 /* Info.plist */,
-				DA33257D243B7062007DAB73 /* Baloo2-Bold.ttf */,
 			);
 			path = SuicideGame;
 			sourceTree = "<group>";
@@ -141,7 +157,7 @@
 				};
 			};
 			buildConfigurationList = DA3F72EF2438D4F40093D306 /* Build configuration list for PBXProject "SuicideGame" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
